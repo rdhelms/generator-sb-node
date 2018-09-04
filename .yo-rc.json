@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Robert Helms",
+      "authorEmail": "robert.helms@smashingboxes.com",
+      "authorUrl": "https://github.com/rdhelms"
+    }
+  }
+}
