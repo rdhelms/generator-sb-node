@@ -72,9 +72,13 @@
     },
     "scripts": {
         "pretest": "eslint .",
-        "precommit": "lint-staged",
         "test": "jest"
     },
     "repository": "rdhelms/generator-sb-node",
-    "license": "MIT"
+    "license": "MIT",
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    }
 }
